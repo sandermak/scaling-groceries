@@ -23,20 +23,6 @@
 				<version>3.8.1</version>
 				<configuration>
 					<release>11</release>
-					<compilerArgs>
-						<arg>-XDcompilePolicy=simple</arg>
-						<arg>-Xplugin:ErrorProne</arg>
-						<!-- Add to enable patching:
-						   -XepPatchChecks:MissingOverride,DefaultCharset,DeadException -XepPatchLocation:IN_PLACE
-						  -->
-					</compilerArgs>
-					<annotationProcessorPaths>
-						<path>
-							<groupId>com.google.errorprone</groupId>
-							<artifactId>error_prone_core</artifactId>
-							<version>2.3.4</version>
-						</path>
-					</annotationProcessorPaths>
 				</configuration>
 			</plugin>
 		</plugins>
