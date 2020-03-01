@@ -10,9 +10,9 @@ public class ProductApiController {
 
 
     @GetMapping("/product")
-    private ImmutableProduct getProduct() {
-        Product p = Product.builder().brand("HotJava").name("Coffee!").price(2500).build();
-
-        return p.withOnSale(true);
+    Product getProduct() {
+        Product p = Product.builder().name("Coffee!").brand("HotJava").price(2500).build();
+        p.withOnSale(true);
+        return p;
     }
 }
