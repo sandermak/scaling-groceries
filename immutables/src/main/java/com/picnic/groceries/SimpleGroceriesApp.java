@@ -1,4 +1,4 @@
-package com.sandermak.groceries;
+package com.picnic.groceries;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
